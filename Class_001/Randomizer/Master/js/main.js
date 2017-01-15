@@ -12,14 +12,17 @@ var classDivs = {};
 var groupsize = 3;
 
 var possible_assignments = [
+	"Strand Books",
 	"Chelsea Market",
+	"Brookfield Place",
 	"Time warner lobby",
 	"Ace Hotel Lobby",
-	"NY Public Library",
-	"Lincoln Center Plaza",
+	"NY Public Library - Main branch",
 	"High Line Park",
 	"Grand Central - Main hall",
-	"Staten Island Ferry Terminal"
+	"Eataly Flatiron",
+	"Staten Island Ferry Terminal",
+	"Oculus hall at the WTC"
 ];
 
 function setup(){
@@ -29,7 +32,7 @@ function setup(){
 
 	// setup spacebrew
 	// 
-	sb = new Spacebrew.Client("spacebrew.robotconscience.com");
+	sb = new Spacebrew.Client("35.162.121.215");
 	  // create spacebrew client object
 
 	sb.name("randomizer_master");
